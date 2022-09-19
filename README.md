@@ -1,6 +1,6 @@
-# selfteachme__c
+# Learning C
 
-Teaching to myself C language from [CS50 classes](https://www.youtube.com/c/cs50).
+Learning C-Programming from [CS50 classes](https://www.youtube.com/c/cs50).
 
 <details>
 <summary open="false">Table of Contents</summary>
