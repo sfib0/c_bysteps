@@ -14,8 +14,8 @@ int main(void)
   {
     for (int row = 0; row < n + n; row++)
     {
-      printf("Row: %i\n", row);
+      printf("#");
     }
-    printf("Col: %i\n", col);
+    printf("\n");
   }
 }
