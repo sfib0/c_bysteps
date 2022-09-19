@@ -18,7 +18,10 @@ int main(void)
   int years = 0;
   while (start < end)
   {
-    start += start / 12;
+    int borns = start / 3;
+    int passes = start / 4;
+    start += borns;
+    start -= passes;
     years++;
   }
   printf("Year(s): %i\n", years);
