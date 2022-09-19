@@ -3,19 +3,18 @@
 
 int main(void)
 {
-  int n = get_int("Size: ");
-
-  while (n < 1)
+  int n;
+  do
   {
     n = get_int("Size: ");
-  }
+  } while (n < 1);
 
   for (int col = 0; col < n; col++)
   {
     for (int row = 0; row < n + n; row++)
     {
-      printf("Row: %i\n", row);
+      printf("#");
     }
-    printf("Col: %i\n", col);
+    printf("\n");
   }
 }

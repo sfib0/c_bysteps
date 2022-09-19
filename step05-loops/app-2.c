@@ -1,10 +1,21 @@
+#include <cs50.c>
 #include <stdio.h>
 
 int main(void)
 {
-  for (int i = 0; i < 4; i++)
+  int n = get_int("Size: ");
+
+  while (n < 1)
   {
-    printf("?");
+    n = get_int("Size: ");
   }
-  printf("\n");
+
+  for (int col = 0; col < n; col++)
+  {
+    for (int row = 0; row < n + n; row++)
+    {
+      printf("Row: %i\n", row);
+    }
+    printf("Col: %i\n", col);
+  }
 }
